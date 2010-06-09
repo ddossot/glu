@@ -22,12 +22,14 @@ from glu.components.storage_component      import StorageComponent
 
 from org.mulesource.glu.component import TestComponent
 from org.mulesource.glu.component import JavaTwitterComponent
+from org.mulesource.glu.component import PostmarkComponent
+from org.mulesource.glu.component import SpecializedPostmarkComponent
 
 #
 # The known components
 #
 _KNOWN_COMPONENTS = [ TwitterComponent, GsearchComponent, CombinerComponent, GpsWalkerComponent, StorageComponent,
-                      TestComponent, JavaTwitterComponent ]
+                      TestComponent, JavaTwitterComponent, PostmarkComponent, SpecializedPostmarkComponent ]
 # SalesforceComponent, MarakanaComponent ]
 
 # -------------------------------------------------------------------------------------
